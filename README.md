@@ -38,5 +38,5 @@ if there is problem "Openzeppelin-contracts" not found, type-
 which creates a remappings.txt file inside the root directory of the project
 
 Now to launch the script, simply type-
-`forge test -vv`
-The above script would show the outputs and pass conditions of the test, if you want to see the transaction tree, simply add an extra "v" in the script at last
+`forge test -vvv`
+The above script would show the outputs and pass conditions of the test, if you want to see the transaction traces, simply add an extra "v" in the script at last.

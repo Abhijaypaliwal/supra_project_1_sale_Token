@@ -1379,8 +1379,8 @@
       }
     },
     "src/sale.sol": {
-      "lastModificationDate": 1704978637093,
-      "contentHash": "d0c9645e11f70c9e64ccf0139d741d30",
+      "lastModificationDate": 1705068473627,
+      "contentHash": "95768348db1ea1c0de8b080c1447bb58",
       "sourceName": "src/sale.sol",
       "solcConfig": {
         "settings": {
