@@ -41,6 +41,3 @@ Now to launch the script, simply type-
 `forge test -vvv`
 The above script would show the outputs and pass conditions of the test, if you want to see the transaction traces, simply add an extra "v" in the script at last.
 
-# Test cases
-
-For testing of the smart contract, both the 
