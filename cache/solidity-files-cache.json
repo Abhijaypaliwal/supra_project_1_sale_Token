@@ -1337,47 +1337,6 @@
         }
       }
     },
-    "src/Counter.sol": {
-      "lastModificationDate": 1704889886621,
-      "contentHash": "ae6c800a2b4c57768024d6e9423d39e8",
-      "sourceName": "src/Counter.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "useLiteralContent": false,
-            "bytecodeHash": "ipfs",
-            "appendCBOR": true
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ]
-            }
-          },
-          "evmVersion": "paris",
-          "libraries": {}
-        }
-      },
-      "imports": [],
-      "versionRequirement": "^0.8.13",
-      "artifacts": {
-        "Counter": {
-          "0.8.20+commit.a1b79de6.Darwin.appleclang": "Counter.sol/Counter.json"
-        }
-      }
-    },
     "src/sale.sol": {
       "lastModificationDate": 1705068473627,
       "contentHash": "95768348db1ea1c0de8b080c1447bb58",
@@ -1426,10 +1385,10 @@
         }
       }
     },
-    "test/Counter.t.sol": {
-      "lastModificationDate": 1704889886621,
-      "contentHash": "b1a6521ba9c61d5266bab1fc9a057d68",
-      "sourceName": "test/Counter.t.sol",
+    "test/sale.t.sol": {
+      "lastModificationDate": 1704979234756,
+      "contentHash": "0b5fb0fda43074685548b4ee2535270d",
+      "sourceName": "test/sale.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -1480,12 +1439,18 @@
         "lib/forge-std/src/mocks/MockERC20.sol",
         "lib/forge-std/src/mocks/MockERC721.sol",
         "lib/forge-std/src/safeconsole.sol",
-        "src/Counter.sol"
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/sale.sol"
       ],
-      "versionRequirement": "^0.8.13",
+      "versionRequirement": "^0.8.20",
       "artifacts": {
-        "CounterTest": {
-          "0.8.20+commit.a1b79de6.Darwin.appleclang": "Counter.t.sol/CounterTest.json"
+        "saleTest": {
+          "0.8.20+commit.a1b79de6.Darwin.appleclang": "sale.t.sol/saleTest.json"
         }
       }
     }
